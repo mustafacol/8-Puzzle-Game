@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="operations.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href="#" />
+</head>
+<body>
+    
+<div class="first">
+    <h1 style="font-size: 50px; ">8 Puzzle</h1>
+    <div class="info_container">
+        <p id="info">CTIS 255 - Web Technologies<br><br>Project<br><br>Fall 2018</p>
+    </div>
+    <div class="start_btn">START</div>
+</div>
+
+<div class="second">
+    <h2>Select an Image</h2>
+    <div><img class="imgs" src="img/boston.jpg"> </div>
+    <div><img class="imgs" src="img/sas.jpg"> </div>
+    <div><img class="imgs" src="img/toronto.jpg"> </div>
+    
+    <div class="continue_button">Continue</div>
+</div>
+
+<div class="third">
+    <div class="picture">
+        
+        <div style="border: none;" class="a0"></div>
+        <div id="a1"></div>
+        <div id="a2"></div>
+        <div id="a3"></div>
+        <div id="a4"></div>
+        <div id="a5"></div>
+        <div id="a6"></div>
+        <div id="a7"></div>
+        <div id="a8"></div>
+        
+    </div>
+    
+    
+    <form class="shuffle">
+        Shuffle Amount:
+        <select class="amount">
+            
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="9">9</option>
+    </select>
+        <div class="shuffle_button">Shuffle</div>
+        
+        
+        
+    </form>
+
+
+<h1 id="end">Congratulations!! </h1>
+<p id="restart">Press F5 to restart!!</p>
+   
+         
+    
+   
+    
+</div>
+    
+     
+
+
+
+    
+    
+
+
+</body>
+</html>
